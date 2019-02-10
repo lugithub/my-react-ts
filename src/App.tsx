@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-import { Hello, Helloc } from "./ms-starter";
+import { Hello, Helloc, Helloh } from "./ms-starter";
 
 interface AppProp {
   title: string;
@@ -26,6 +26,7 @@ class App extends Component<AppProp> {
         </header>
         <Hello name="foo" enthusiasmLevel={3} />
         <Helloc name="bar" />
+        <Helloh name="hooks" />
       </div>
     );
   }
