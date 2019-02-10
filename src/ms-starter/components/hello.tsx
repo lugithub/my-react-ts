@@ -1,9 +1,9 @@
 import * as React from "react";
 
-export interface HelloProps {
+export type HelloProps = {
   name: string;
   enthusiasmLevel?: number;
-}
+};
 
 export function Hello({ name, enthusiasmLevel = 1 }: HelloProps) {
   if (enthusiasmLevel <= 0) {
@@ -21,6 +21,6 @@ export function Hello({ name, enthusiasmLevel = 1 }: HelloProps) {
 
 // helpers
 
-function getExclamationMarks(numChars: number) {
+export function getExclamationMarks(numChars: number) {
   return Array(numChars + 1).join("!");
 }
