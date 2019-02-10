@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
+import { Hello } from "./ms-starter";
+
 interface AppProp {
   title: string;
 }
@@ -22,6 +24,7 @@ class App extends Component<AppProp> {
             Learn React
           </a>
         </header>
+        <Hello name="foo" enthusiasmLevel={3} />
       </div>
     );
   }
