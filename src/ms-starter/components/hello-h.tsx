@@ -8,6 +8,7 @@ export function Helloh({ name }: HelloProps) {
   });
 
   function handleClick() {
+    console.log("handleClick");
     setState(prevS => {
       return {
         enthusiasmLevel: prevS.enthusiasmLevel + 1
