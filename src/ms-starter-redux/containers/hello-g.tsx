@@ -1,9 +1,9 @@
-import React from "react";
-import { connect } from "react-redux";
+import React from 'react';
+import { connect } from 'react-redux';
 
-import { getExclamationMarks } from "../../ms-starter";
-import { RootState } from "../../";
-import { incrementEnthusiasm } from "../actions";
+import { getExclamationMarks } from '../../ms-starter';
+import { RootState } from '../../';
+import { incrementEnthusiasm } from '../actions';
 
 export type HellopProps = {
   name: string;

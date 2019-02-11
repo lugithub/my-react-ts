@@ -1,5 +1,5 @@
-import { EnthusiasmAction } from "../actions";
-import { INCREMENT_ENTHUSIASM, DECREMENT_ENTHUSIASM } from "../actions";
+import { EnthusiasmAction } from '../actions';
+import { INCREMENT_ENTHUSIASM, DECREMENT_ENTHUSIASM } from '../actions';
 
 export function enthusiasmLevel(state: number = 1, action: EnthusiasmAction) {
   switch (action.type) {

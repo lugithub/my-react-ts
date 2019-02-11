@@ -1,6 +1,6 @@
-import { combineReducers } from "redux";
+import { combineReducers } from 'redux';
 
-import { enthusiasmLevel } from "./ms-starter-redux";
+import { enthusiasmLevel } from './ms-starter-redux';
 
 export type RootState = {
   enthusiasmLevel: number;

@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import { HelloProps, getExclamationMarks } from "./hello";
+import { HelloProps, getExclamationMarks } from './hello';
 
 export function Helloh({ name }: HelloProps) {
   const [{ enthusiasmLevel }, setState] = useState({
@@ -8,7 +8,7 @@ export function Helloh({ name }: HelloProps) {
   });
 
   function handleClick() {
-    console.log("handleClick");
+    console.log('handleClick');
     setState(prevS => {
       return {
         enthusiasmLevel: prevS.enthusiasmLevel + 1

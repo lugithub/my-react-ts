@@ -1,18 +1,18 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { Provider } from "react-redux";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
 
-import configureStore from "./configure-store";
-import "./index.css";
-import App from "./App";
-import * as serviceWorker from "./serviceWorker";
+import configureStore from './configure-store';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
 const store = configureStore();
 ReactDOM.render(
   <Provider store={store}>
     <App title="learn app" />
   </Provider>,
-  document.getElementById("root")
+  document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
@@ -20,4 +20,4 @@ ReactDOM.render(
 // Learn more about service workers: http://bit.ly/CRA-PWA
 serviceWorker.unregister();
 
-export * from "./root-reducer";
+export * from './root-reducer';

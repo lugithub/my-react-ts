@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import { HelloProps, getExclamationMarks } from "./hello";
+import { HelloProps, getExclamationMarks } from './hello';
 
 type HelloS = {
   enthusiasmLevel: number;

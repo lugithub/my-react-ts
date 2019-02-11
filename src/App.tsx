@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
 
-import { Hello, Helloc, Helloh } from "./ms-starter";
-import { Hellog } from "./ms-starter-redux";
+import { Hello, Helloc, Helloh } from './ms-starter';
+import { Hellog } from './ms-starter-redux';
 
 type AppProp = {
   title: string;
