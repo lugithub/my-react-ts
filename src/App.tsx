@@ -3,10 +3,11 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import { Hello, Helloc, Helloh } from "./ms-starter";
+import { Hellog } from "./ms-starter-redux";
 
-interface AppProp {
+type AppProp = {
   title: string;
-}
+};
 
 class App extends Component<AppProp> {
   render() {
@@ -27,6 +28,7 @@ class App extends Component<AppProp> {
         <Hello name="foo" enthusiasmLevel={3} />
         <Helloc name="bar" />
         <Helloh name="hooks" />
+        <Hellog name="redux" />
       </div>
     );
   }
