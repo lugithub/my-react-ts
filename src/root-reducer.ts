@@ -1,11 +1,13 @@
 import { combineReducers } from 'redux';
 
-import { enthusiasmLevel } from './ms-starter-redux';
+import { enthusiasmLevel, counter } from './ms-starter-redux';
 
 export type RootState = {
   enthusiasmLevel: number;
+  counter: number;
 };
 
 export const rootReducer = combineReducers({
-  enthusiasmLevel
+  enthusiasmLevel,
+  counter
 });
